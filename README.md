@@ -1,16 +1,16 @@
-# Product Management Dashboard
+# Task Management Dashboard
 
-A fully functional **Product Management Dashboard** built with React, Vite, and modern frontend technologies.  
+A fully functional **Task Management Dashboard** built with React, Vite, and modern frontend technologies.  
 
-**Live Demo:** https://product-management-dashboard-kappa.vercel.app/ 
-**GitHub Repository:** https://github.com/vaishnaviadhe/Product-management-dashboard
+**Live Demo:** https://task-dashboard-xxxxx.vercel.app  
+**GitHub Repository:** https://github.com/vaishnaviadhe/Task-Management-Dashboard.git
+
 ---
 
 ## Features
-- Product listing with search and category filter
-- Add, edit, and delete products
-- Pagination for large product lists
-- Loading states for better UX
+- View list of tasks
+- Add, edit, and delete tasks
+- Filter tasks by status
 - Responsive UI for mobile and desktop
 
 ---
@@ -25,5 +25,6 @@ A fully functional **Product Management Dashboard** built with React, Vite, and 
 
 ## Setup Instructions
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/vaishnaviadhe/Product-management-dashboard.git
+git clone https://github.com/vaishnaviadhe/task-management-dashboard.git
