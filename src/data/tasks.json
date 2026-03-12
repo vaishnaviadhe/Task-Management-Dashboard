@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Learn React",
+    "description": "Study React basics",
+    "status": "Pending",
+    "dueDate": "2026-03-20"
+  },
+  {
+    "id": 2,
+    "title": "Build Dashboard",
+    "description": "Complete assignment",
+    "status": "In Progress",
+    "dueDate": "2026-03-25"
+  }
+]

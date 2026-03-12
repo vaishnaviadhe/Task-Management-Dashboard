@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d1ebf7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* MAIN DASHBOARD */
+
+.dashboard-container {
+  width: 85%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* HEADINGS */
+
+h2 {
+  text-align: center;
+  color: #5b21b6;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #1f2937;
+  margin-bottom: 15px;
+}
+
+/* FORM */
+
+form {
+  background: #262842;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+form h3{
+    color: #e5e7eb;;
+}
+
+/* INPUT FIELDS */
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid #dfa4c6;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+
+button {
+  padding: 9px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+/* ADD BUTTON */
+
+.add-btn {
+  background-color: #d297af;
+}
+
+.add-btn:hover {
+  background-color: #c07f9b;
+}
+
+/* EDIT BUTTON */
+
+.edit-btn {
+  background-color: #d297af;
+  
+}
+
+.edit-btn:hover {
+  background-color: #c07f9b;
+}
+
+/* DELETE BUTTON */
+
+.delete-btn {
+  background-color: #b02e80;
+}
+
+.delete-btn:hover {
+  background-color: #8f2267;
+}
+
+/* FILTER BAR */
+
+.filter-bar {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-bar button {
+  background-color: #8897BD;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.filter-bar button:hover {
+  background-color: #6f7ea8;
+}
+
+/* TASK CARD */
+
+.task-card {
+  background: #293961;
+  padding: 20px;
+  border-radius: 12px;
+  aspect-ratio: 1 / 1;   /* makes card square */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  transition: 0.2s;
+
+  max-width: 350px;
+  width: 100%;
+}
+
+ .task-card:hover{
+    transform: translateY(-5px) scale(1.02);
+    transition: 0.2s;
+ }
+
+/* TASK TEXT */
+
+.task-card h3 {
+  margin-top: 0;
+  color: white;
+}
+
+.task-card p {
+  color: #e5e7eb;
+  margin: 6px 0;
+}
+
+/* STATUS */
+
+.status {
+  font-weight: bold;
+}
+
+.pending {
+  color: #f59e0b;
+}
+
+.progress {
+  color: #60a5fa;
+}
+
+.completed {
+  color: #34d399;
+}
+
+.task-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 20px;
+  justify-items: center; 
+}
+
+
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
