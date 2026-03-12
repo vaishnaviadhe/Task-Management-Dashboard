@@ -2,9 +2,8 @@
 
 A fully functional **Product Management Dashboard** built with React, Vite, and modern frontend technologies.  
 
-**Live Demo:** [https://product-management-sage-five.vercel.app/](https://product-management-sage-five.vercel.app/)  
-**GitHub Repository:** [https://github.com/sunil0336/product-management](https://github.com/sunil0336/product-management)
-
+**Live Demo:** https://product-management-dashboard-kappa.vercel.app/ 
+**GitHub Repository:** https://github.com/vaishnaviadhe/Product-management-dashboard
 ---
 
 ## Features
@@ -27,4 +26,4 @@ A fully functional **Product Management Dashboard** built with React, Vite, and 
 ## Setup Instructions
 1. Clone the repository:
 ```bash
-git clone https://github.com/sunil0336/product-management.git
+git clone https://github.com/vaishnaviadhe/Product-management-dashboard.git
