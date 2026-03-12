@@ -2,7 +2,7 @@
 
 A fully functional **Task Management Dashboard** built with React, Vite, and modern frontend technologies.  
 
-**Live Demo:** https://task-dashboard-xxxxx.vercel.app  
+**Live Demo:** https://task-management-dashboard-sandy.vercel.app 
 **GitHub Repository:** https://github.com/vaishnaviadhe/Task-Management-Dashboard.git
 
 ---
@@ -27,4 +27,7 @@ A fully functional **Task Management Dashboard** built with React, Vite, and mod
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/vaishnaviadhe/task-management-dashboard.git
+git clone https://github.com/vaishnaviadhe/Task-Management-Dashboard.git
+cd Task-Management-Dashboard
+npm install
+npm run dev
