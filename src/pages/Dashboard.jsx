@@ -48,7 +48,9 @@ function Dashboard() {
 
       <FilterBar setFilter={setFilter} />
 
-      <h3>Task List</h3>
+      <h3 style={{ textAlign: "center", width: "100%", marginTop: "20px" }}>
+  Task List
+</h3>
 
       <div className="task-grid">
         {filteredTasks.map((task) => (

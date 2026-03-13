@@ -55,7 +55,7 @@ function TaskForm({ addTask, editingTask, updateTask}) {
   };
 
   return (
-    <form ref={formRef} onSubmit={handleSubmit}>
+    <form className="task-form" ref={formRef} onSubmit={handleSubmit}>
 
       <h3>Add New Task</h3>
 
